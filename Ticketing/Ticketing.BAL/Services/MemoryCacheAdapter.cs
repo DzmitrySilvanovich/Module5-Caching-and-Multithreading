@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Primitives;
 using System.Collections.Concurrent;
+using Ticketing.BAL.Contracts;
 
 namespace Ticketing.BAL.Services
 {

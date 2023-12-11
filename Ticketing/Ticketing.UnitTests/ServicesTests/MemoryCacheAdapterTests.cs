@@ -22,35 +22,6 @@ namespace Ticketing.UnitTests.ServicesTests
         [Fact]
         public void Test_Cache_Set_Get()
         {
-            //            var myConfiguration = new Dictionary<string, string>/
-            //{
-            //    {"MemoryCacheAdapter:SetSlidingExpiration", "120"},
-            //   {"MemoryCacheAdapter:SetAbsoluteExpiration", "180"}
-            //};
-
-            //IConfigurationRoot configuration = new ConfigurationBuilder()
-            //             .AddInMemoryCollection(myConfiguration)
-            //             .Build();
-
-            ////      public Test GetSystemUnderTest()
-            //    {
-            //         var services = new ServiceCollection();
-            //           services.AddMemoryCache();
-            //         services.AddSingleton<ICacheAdapter, MemoryCacheAdapter>();
-
-            //     var serviceProvider = services.BuildServiceProvider();
-            //    var mm = serviceProvider.GetRequiredService<ICacheAdapter>();
-            //   var scope = serviceProvider.CreateScope();
-
-            //       var memoryCache = serviceProvider.CreateScope().GetService<ICacheAdapter>();
-            //     var memoryCache = scope.ServiceProvider.GetRequiredService<ICacheAdapter>();
-            //   scope.Dispose();
-            //    return new Test(memoryCache);
-            //  }
-            //var sp = services.BuildServiceProvider();
-            //using (var scope = sp.CreateScope())
-            //using (var appContext = scope.ServiceProvider.GetRequiredService<ApplicationContext>())
-
             string key = "testkey";
             string setValue = "value";
             string getValue = "";

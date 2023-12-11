@@ -28,10 +28,9 @@ namespace Ticketing.DAL.Repositories
         public ApplicationContext(DbContextOptions<ApplicationContext> options)
             : base(options)
         {
-           // Database.EnsureDeleted();
             if (!Database.GetService<IRelationalDatabaseCreator>().Exists())
             {
-             //   Database.EnsureCreated();
+                Database.EnsureCreated();
             }
         }
 
